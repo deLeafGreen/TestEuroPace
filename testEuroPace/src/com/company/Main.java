@@ -16,6 +16,10 @@ public class Main {
         System.out.println("############################################");
         System.out.println("            BOWLING -- GAME");
         System.out.println("############################################");
+        System.err.println("Please type 'roll'");
+
+
+        System.out.print(">> ");
         Scanner scan = new Scanner(System.in);
         String  s = scan.next();
 
