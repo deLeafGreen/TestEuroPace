@@ -25,8 +25,8 @@ public class Main {
 
             if(s.equals("roll")){
                 bowl.roll();
-                System.out.println(bowl.toString());
             }
+            System.out.println(bowl.toString());
 
         }
     }

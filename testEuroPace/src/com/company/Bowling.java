@@ -90,12 +90,19 @@ public class Bowling {
     public String toString(){
         StringBuilder s = new StringBuilder();
 
-                int mainLoop = 0;
-                while(mainLoop < frame){
-                s.append("-- roll: ").append(mainLoop+1).append(" -- current pins:").append(game[mainLoop]).append(" -- chances: ").append(chances[mainLoop]).append(" \n");
-                mainLoop += 1;
-            }
+                
+                
+                   
+                
+            
                 if(frame >= 10){
+                    for(int i= 0; i< frame;i++){
+                        s.append("-- roll: ")
+                        .append(i+1)
+                        .append(" -- current pins:")
+                        .append(game[i]).append(" -- chances: ")
+                        .append(chances[i]).append(" \n");
+                    }
                     s.append("-- final: ").append(score).append("\n\n").append("-----------------------------------------------------------------------------------------------------------");
                 }
 
